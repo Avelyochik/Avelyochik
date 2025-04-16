@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Путеводитель по вселенной Миядзаки</title>
+  <style>
+    body {
+      background-image: url('фото/карта.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    .outlined-text {
+      color: #000000;
+      text-shadow:
+        1px 1px 2px #ffffff,
+        -1px -1px 2px #ffffff,
+        1px -1px 2px #ffffff,
+        -1px 1px 2px #ffffff;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-top: 20px;
+    }
+
+    p {
+      margin-top: 20px;
+    }
+
+    .custom-link {
+      color: #000000;
+      text-decoration: none;
+    }
+
+    .movie-container {
+      margin: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+    .movie {
+      margin-bottom: 20px;
+    }
+
+    .movie img {
+      width: 250px;
+      height: auto;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+
+    .movie a {
+      display: block;
+      font-size: 1.2em;
+    }
+
+    .pendant {
+      position: absolute;
+      top: 25px;
+      left: 13%;
+      transform: translateX(-100%);
+      width: 100px;
+      height: auto;
+      z-index: 10;
+    }
+
+    .pendant-right {
+      position: absolute;
+      top: 25px;
+      right: 13%;
+      transform: translateX(100%);
+      width: 100px;
+      height: auto;
+      z-index: 10;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="outlined-text">Путеводитель по вселенной Миядзаки</h1>
+  
+  <!-- Добавлены картинки висюльки -->
+  <img class="pendant" src="фото/висюлька копия.jpg" alt="Висюлька">
+  <img class="pendant-right" src="фото/висюлька копия.jpg" alt="Висюлька">
+
+  <div class="movie-container">
+    <div class="movie">
+      <img src="фото/долины ветра четоттам копия нов.webp" alt="Наусикая из долины ветров" />
+      <a class="custom-link outlined-text" href="https://rezka.ag/animation/adventures/2453-navsikaya-iz-doliny-vetrov-1984.html" title="смотреть">Наусикая из долины ветров (1984)</a>
+    </div>
+
+    <div class="movie">
+      <img src="фото/летучий замок копия нов.webp" alt="Летучий замок" />
+      <a class="custom-link outlined-text" href="https://rezka.ag/animation/adventures/2471-nebesnyy-zamok-laputa-1986.html" title="смотреть">Летучий замок (1986)</a>
+    </div>
+
+    <div class="movie">
+      <img src="фото/мой сосед тоторо.webp" alt="Мой сосед Тоторо" />
+      <a class="custom-link outlined-text" href="https://rezka.ag/animation/adventures/1347-moy-sosed-totoro-1988.html" title="смотреть">Мой сосед Тоторо (1988)</a>
+    </div>
+
+    <div class="movie">
+      <img src="фото/принцеса моноке копия нов.webp" alt="Принцесса Мононоке" />
+      <a class="custom-link outlined-text" href="https://rezka.ag/animation/drama/1350-princessa-mononoke-1997.html" title="смотреть">Принцесса Мононоке (1997)</a>
+    </div>
+
+    <div class="movie">
+      <img src="фото/унесеные призраками копия нов.webp" alt="Унесённые призраками" />
+      <a class="custom-link outlined-text" href="https://rezka.ag/animation/adventures/829-unesennye-prizrakami-2001.html" title="смотреть">Унесённые призраками (2001)</a>
+    </div>
+
+    <div class="movie">
+      <img src="фото/ходячий замок копия нов.webp" alt="Ходячий замок" />
+      <a class="custom-link outlined-text" href="https://rezka.ag/animation/drama/818-hodyachiy-zamok-2004.html" title="смотреть">Ходячий замок (2004)</a>
+    </div>
+
+    <div class="movie">
+      <img src="фото/рыбка пониье.webp" alt="Рыбка Поньо" />
+      <a class="custom-link outlined-text" href="https://rezka.ag/animation/adventures/7460-rybka-pono-na-utese-2008.html" title="смотреть">Рыбка Поньо (2008)</a>
+    </div>
+
+    <div class="movie">
+      <img src="фото/ветер крепчает копия нов.webp" alt="Ветер крепчает" />
+      <a class="custom-link outlined-text" href="https://rezka.ag/animation/drama/1269-veter-krepchaet-2013.html" title="смотреть">Ветер крепчает (2013)</a>
+    </div>
+
+    <div class="movie">
+      <img src="фото/мальчик и птица.webp" alt="Мальчик и птица" />
+      <a class="custom-link outlined-text" href="https://rezka.ag/animation/adventures/60358-malchik-i-ptica-2023.html" title="смотреть">Мальчик и птица (2024)</a>
+    </div>
+
+    <div class="movie">
+      <img src="фото/наусикая.jpg" alt="Великий день Коро" />
+      <a class="custom-link outlined-text" href="https://ru.kinorium.com/380886/?ysclid=m7tbsz2kl8118240390" title="смотреть">Великий день Коро (2002)</a>
+    </div>
+  </div>
+</body>
+
+</html>
